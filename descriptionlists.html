@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Lists</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Oswald:wght@500&display=swap" rel="stylesheet">
+    
+    <style>
+        body{
+            background: rgb(2,0,36);
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 56%, rgba(0,212,255,1) 100%);
+        }
+
+        h1{
+            color:white;
+            font-family: 'Dela Gothic One', cursive;
+        }
+        h2{
+            font-family: 'Dela Gothic One', cursive;
+        }
+
+        li{
+            color:white;
+            font-family: 'Oswald', sans-serif;
+        }
+
+        p{
+            color:white;
+            font-family: 'Oswald', sans-serif;
+        }
+        .gemfelixmain{
+            background-size: 10%;
+            background-image: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+            border-radius: 6px;
+            padding: 3px 6px;
+            width: 105px;;
+            
+        }
+        dd{
+            color: white;
+            font-family: 'Oswald', sans-serif;
+        }
+        dt{
+            color: yellow;
+            font-family: 'Dela Gothic One', cursive;
+        }
+    </style>
+</head>
+<body>
+    
+    <h2 class="orderedlist" style="margin-bottom: 0%; color: yellow;"> Description <a style="color: yellow;" href="main.html">Lists</a></a></h2>
+    
+
+    <p>
+    Description lists are used for any type of name / value pairs, such as terms and their
+    <br>definitions, questions and answeres, or other types of terms and their associated
+    <br>information. Their structure is a bit different from the other two lists that we just
+    <br>discussed. The whole description list is marked up as a <bold style="color: yellow; font-weight: bold;">dl</bold> element. The content
+    <br> of a <bold style="color: yellow; font-weight: bold;">dl</bold> is some number of <bold style="color: yellow; font-weight: bold;">dt</bold> elements indicating the names and <bold style="color: yellow; font-weight: bold;">dd</bold> elements for 
+    <br>their respective values. I find it helpful to think of them as "terms" (to remember 
+    <br>the "t"in <bold style="color: yellow; font-weight: bold;">dt</bold>) and even though that is only one use of description lists in HTML5. 
+    <br>For example:
+
+    <dl>
+        <dt> <a style="color: yellow;" href="">beginPath()</a></dt>
+        <dd>Creates a new path. Once created, future drawing  commands are
+            <br>directed into the path and used to build the path up.
+        </dd>
+
+        <dt> <a style="color: yellow;" href="">Path methods()</a></dt>
+        <dd>Methods to set different paths for objects.</dd>
+
+        <dt> <a style="color: yellow;" href="">closePath()</a></dt>
+        <dd>Adds a straight line to the path, going to the current sub-path.</dd>
+    </dl> 
+    </p>
+    
+    
+</body>
+</html>
